@@ -1,14 +1,40 @@
 body {
     font-family: 'Nunito', sans-serif;
+    background-color: #F19D00;
+    color: #fff;
+    font-weight: 400 !important;
+}
+
+h1,
+h2,
+h3 {
+    color: #fff;
 }
 
 
 .btn {
     /* width: 100px; */
     height: 40px;
+    background-color: rgb(189, 84, 24);
+    border: none;
+    color: white;
+    padding: 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
 .ml-5,
 .mx-5 {
     margin-left: 11rem !important;
+}
+
+input[type=text] {
+
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #fff;
+    box-sizing: border-box;
 }
