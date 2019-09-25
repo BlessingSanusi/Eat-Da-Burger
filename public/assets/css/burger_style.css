@@ -1,21 +1,30 @@
 body {
     font-family: 'Nunito', sans-serif;
-    background-color: #F19D00;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
     font-weight: 400 !important;
 }
 
-h1,
-h2,
-h3 {
-    color: #fff;
-}
+
 
 
 .btn {
     /* width: 100px; */
     height: 40px;
-    background-color: rgb(189, 84, 24);
+    background-color: #10455b;
+    border: none;
+    color: white;
+    padding: 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.btn .devourBtn {
+    /* width: 100px; */
+    height: 40px;
+    background-color: #10455b;
     border: none;
     color: white;
     padding: 6px;
@@ -35,6 +44,6 @@ input[type=text] {
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #fff;
+    border: 1px solid #ffaf20;
     box-sizing: border-box;
 }
